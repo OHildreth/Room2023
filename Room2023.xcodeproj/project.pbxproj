@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0DBC7332981E57C004D30D7 /* Room2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBC7322981E57C004D30D7 /* Room2023App.swift */; };
+		C0DBC7352981E57C004D30D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBC7342981E57C004D30D7 /* ContentView.swift */; };
+		C0DBC7372981E57D004D30D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DBC7362981E57D004D30D7 /* Assets.xcassets */; };
+		C0DBC73A2981E57D004D30D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DBC7392981E57D004D30D7 /* Preview Assets.xcassets */; };
+		C0DBC7422981E846004D30D7 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBC7412981E846004D30D7 /* StartingView.swift */; };
+		C0DBC7452981E98C004D30D7 /* Overview_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBC7442981E98C004D30D7 /* Overview_1.swift */; };
+		C0F6AA47298482A800B5980A /* RooDataModel_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6AA46298482A800B5980A /* RooDataModel_1.swift */; };
+		C0F6AA492984892000B5980A /* Overview_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6AA482984892000B5980A /* Overview_2.swift */; };
+		C0F6AA4C29848A3A00B5980A /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6AA4B29848A3A00B5980A /* RoomViewModel.swift */; };
+		C0F6AA4E29848B8200B5980A /* OccupantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6AA4D29848B8200B5980A /* OccupantType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0DBC72F2981E57C004D30D7 /* Room2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Room2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DBC7322981E57C004D30D7 /* Room2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room2023App.swift; sourceTree = "<group>"; };
+		C0DBC7342981E57C004D30D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0DBC7362981E57D004D30D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0DBC7392981E57D004D30D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0DBC73B2981E57D004D30D7 /* Room2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Room2023.entitlements; sourceTree = "<group>"; };
+		C0DBC7412981E846004D30D7 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		C0DBC7442981E98C004D30D7 /* Overview_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview_1.swift; sourceTree = "<group>"; };
+		C0F6AA46298482A800B5980A /* RooDataModel_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooDataModel_1.swift; sourceTree = "<group>"; };
+		C0F6AA482984892000B5980A /* Overview_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview_2.swift; sourceTree = "<group>"; };
+		C0F6AA4B29848A3A00B5980A /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		C0F6AA4D29848B8200B5980A /* OccupantType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupantType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0DBC72C2981E57C004D30D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0DBC7262981E57C004D30D7 = {
+			isa = PBXGroup;
+			children = (
+				C0DBC7312981E57C004D30D7 /* Room2023 */,
+				C0DBC7302981E57C004D30D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0DBC7302981E57C004D30D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBC72F2981E57C004D30D7 /* Room2023.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DBC7312981E57C004D30D7 /* Room2023 */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBC7322981E57C004D30D7 /* Room2023App.swift */,
+				C0DBC7342981E57C004D30D7 /* ContentView.swift */,
+				C0F6AA452984827C00B5980A /* Data Models */,
+				C0F6AA4A29848A0A00B5980A /* View Models */,
+				C0DBC7432981E8F1004D30D7 /* Views */,
+				C0DBC7362981E57D004D30D7 /* Assets.xcassets */,
+				C0DBC73B2981E57D004D30D7 /* Room2023.entitlements */,
+				C0DBC7382981E57D004D30D7 /* Preview Content */,
+			);
+			path = Room2023;
+			sourceTree = "<group>";
+		};
+		C0DBC7382981E57D004D30D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBC7392981E57D004D30D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0DBC7432981E8F1004D30D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBC7412981E846004D30D7 /* StartingView.swift */,
+				C0DBC7442981E98C004D30D7 /* Overview_1.swift */,
+				C0F6AA482984892000B5980A /* Overview_2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0F6AA452984827C00B5980A /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0F6AA46298482A800B5980A /* RooDataModel_1.swift */,
+				C0F6AA4D29848B8200B5980A /* OccupantType.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		C0F6AA4A29848A0A00B5980A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0F6AA4B29848A3A00B5980A /* RoomViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0DBC72E2981E57C004D30D7 /* Room2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DBC73E2981E57D004D30D7 /* Build configuration list for PBXNativeTarget "Room2023" */;
+			buildPhases = (
+				C0DBC72B2981E57C004D30D7 /* Sources */,
+				C0DBC72C2981E57C004D30D7 /* Frameworks */,
+				C0DBC72D2981E57C004D30D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Room2023;
+			productName = Room2023;
+			productReference = C0DBC72F2981E57C004D30D7 /* Room2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0DBC7272981E57C004D30D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C0DBC72E2981E57C004D30D7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C0DBC72A2981E57C004D30D7 /* Build configuration list for PBXProject "Room2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0DBC7262981E57C004D30D7;
+			productRefGroup = C0DBC7302981E57C004D30D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0DBC72E2981E57C004D30D7 /* Room2023 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0DBC72D2981E57C004D30D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DBC73A2981E57D004D30D7 /* Preview Assets.xcassets in Resources */,
+				C0DBC7372981E57D004D30D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0DBC72B2981E57C004D30D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F6AA47298482A800B5980A /* RooDataModel_1.swift in Sources */,
+				C0F6AA492984892000B5980A /* Overview_2.swift in Sources */,
+				C0DBC7422981E846004D30D7 /* StartingView.swift in Sources */,
+				C0DBC7352981E57C004D30D7 /* ContentView.swift in Sources */,
+				C0F6AA4E29848B8200B5980A /* OccupantType.swift in Sources */,
+				C0DBC7452981E98C004D30D7 /* Overview_1.swift in Sources */,
+				C0F6AA4C29848A3A00B5980A /* RoomViewModel.swift in Sources */,
+				C0DBC7332981E57C004D30D7 /* Room2023App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0DBC73C2981E57D004D30D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0DBC73D2981E57D004D30D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C0DBC73F2981E57D004D30D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Room2023/Room2023.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Room2023/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HRG.Room2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0DBC7402981E57D004D30D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Room2023/Room2023.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Room2023/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HRG.Room2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0DBC72A2981E57C004D30D7 /* Build configuration list for PBXProject "Room2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DBC73C2981E57D004D30D7 /* Debug */,
+				C0DBC73D2981E57D004D30D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DBC73E2981E57D004D30D7 /* Build configuration list for PBXNativeTarget "Room2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DBC73F2981E57D004D30D7 /* Debug */,
+				C0DBC7402981E57D004D30D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0DBC7272981E57C004D30D7 /* Project object */;
+}
