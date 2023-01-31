@@ -7,7 +7,11 @@
 
 import Foundation
 
-enum OccupantType: String, CaseIterable, Equatable {
+enum OccupantType: String, CaseIterable, Equatable, Codable {
     case student
     case teacher
+    
+    var name: String {
+        return self.rawValue.capitalized
+    }
 }

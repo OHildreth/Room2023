@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Overview_1: View {
-    @StateObject var roomDataModel = RoomDataModel_1()
+    @StateObject   var roomDataModel = RoomDataModel_1()
     
     var body: some View {
         VStack {

@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct Overview_2: View {
-    @StateObject var roomViewModel = RoomViewModel()
+    @StateObject var roomViewModel = RoomViewModel_2()
     
     var body: some View {
         VStack {
             Text("Drop Down Menu: Teachers/Students")
             Picker("Type", selection: $roomViewModel.selectedOccupantType) {
                 ForEach(OccupantType.allCases, id: \.self) { nextType in
-                    Text(nextType.rawValue)
+                    Text(nextType.name)
                 }
             }
             HStack {
-                Button("+", action: add)
-                Button("-", action: {roomViewModel.roomDataModel.numberOfTeachers -= 1})
+                Button("+", action: roomViewModel.increment)
+                Button("-", action: roomViewModel.decrement)
+                    .disabled(!roomViewModel.shouldEnableDecrementButton)
             }
             Divider()
             Text("Students: \(roomViewModel.roomDataModel.numberOfStudents)")
