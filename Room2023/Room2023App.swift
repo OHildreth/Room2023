@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct Room2023App: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
